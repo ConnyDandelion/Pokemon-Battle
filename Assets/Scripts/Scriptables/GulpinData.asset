@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0804b2ad732998443905381f61836caf, type: 3}
+  m_Name: GulpinData
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  charaterName: Gulpin
+  maxHealth: 100
+  attacks:
+  - AttackName: Claw
+    minDamage: 1
+    maxDamage: 3
+    animationName: Attack1
+    attackParticles: {fileID: 0}
+    attackHitParticles: {fileID: 0}
+  - AttackName: Venom
+    minDamage: 2
+    maxDamage: 10
+    animationName: Attack2
+    attackParticles: {fileID: 0}
+    attackHitParticles: {fileID: 0}
