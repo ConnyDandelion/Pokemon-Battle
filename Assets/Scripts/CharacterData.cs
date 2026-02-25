@@ -20,5 +20,5 @@ public class AttackData
     public GameObject attackParticles;
     public GameObject attackHitParticles;
 
-    
+    public float attackDuration;
 }

@@ -57,4 +57,9 @@ public class InstantiatePoolObjects : MonoBehaviour
             obj.SetActive(false);
         }
     }
+
+    public void SetPrefab(GameObject newPrefab)
+    {
+        prefab = newPrefab;
+    }
 }
