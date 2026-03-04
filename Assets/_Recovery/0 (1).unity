@@ -913,7 +913,6 @@ GameObject:
   - component: {fileID: 649709364}
   - component: {fileID: 649709363}
   - component: {fileID: 649709362}
-  - component: {fileID: 649709365}
   m_Layer: 0
   m_Name: Gulpin
   m_TagString: Untagged
@@ -1027,7 +1026,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 649709365}
+  mPreview: {fileID: 0}
 --- !u!4 &649709364
 Transform:
   m_ObjectHideFlags: 0
@@ -1044,25 +1043,6 @@ Transform:
   - {fileID: 1015449270}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &649709365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 649709361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
-  mObserverBehaviour: {fileID: 649709363}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Gulpin
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 649709363}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &768104950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1099,6 @@ GameObject:
   - component: {fileID: 822705557}
   - component: {fileID: 822705556}
   - component: {fileID: 822705555}
-  - component: {fileID: 822705558}
   m_Layer: 0
   m_Name: Wigglytuff
   m_TagString: Untagged
@@ -1233,7 +1212,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 822705558}
+  mPreview: {fileID: 0}
 --- !u!4 &822705557
 Transform:
   m_ObjectHideFlags: 0
@@ -1250,25 +1229,6 @@ Transform:
   - {fileID: 1549282871}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &822705558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822705553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
-  mObserverBehaviour: {fileID: 822705556}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Wigglytuff
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 822705556}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &827064453
 GameObject:
   m_ObjectHideFlags: 0

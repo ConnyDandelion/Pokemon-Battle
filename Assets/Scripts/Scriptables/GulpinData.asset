@@ -13,17 +13,20 @@ MonoBehaviour:
   m_Name: GulpinData
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   charaterName: Gulpin
-  maxHealth: 100
+  maxHealth: 200
   attacks:
   - AttackName: Claw
     minDamage: 1
     maxDamage: 3
     animationName: attack1
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackParticles: {fileID: 3223031359271505891, guid: 155410a7086d1d34ca48c448dfc33156, type: 3}
+    attackHitParticles: {fileID: 6403252182692130976, guid: 4e12b3c53c0f8ee4da83655d8d2770d5, type: 3}
+    attackDuration: 3
   - AttackName: Spin
     minDamage: 3
     maxDamage: 10
     animationName: attack2
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackParticles: {fileID: 3384366999043453948, guid: 7c19ad7a926fc084ea69d9ba4fedeeab, type: 3}
+    attackHitParticles: {fileID: 6403252182692130976, guid: 4e12b3c53c0f8ee4da83655d8d2770d5, type: 3}
+    attackDuration: 2
+  winAnimationName: victory

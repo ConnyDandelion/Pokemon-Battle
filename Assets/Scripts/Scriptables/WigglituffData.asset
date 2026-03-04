@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8dc20350fbeec478e9db26f2a45edd, type: 3}
   m_Name: WigglituffData
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  charaterName: 
-  maxHealth: 0
+  charaterName: Wigglutuff
+  maxHealth: 200
   attacks:
   - AttackName: Bubble
     minDamage: 1
     maxDamage: 6
     animationName: Attack1
-    attackParticles: {fileID: 0}
-    attackHitParticles: {fileID: 0}
+    attackParticles: {fileID: 4109064841345302812, guid: 2a409ab125c5216449bc5f005ec045f0, type: 3}
+    attackHitParticles: {fileID: 4033412786151888123, guid: 49057b33ea71fbb4da4e8f02a8db9f28, type: 3}
+    attackDuration: 2
+  winAnimationName: Win

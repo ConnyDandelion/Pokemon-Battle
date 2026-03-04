@@ -24,6 +24,7 @@ public class BttleManager : MonoBehaviour
     {
         if (fighters.Count < maximumFighters)
         {
+            DialogSystem.Instance.ShowDialog(fighter.CharacterData.charaterName + "Has entered the battle!");
             fighters.Add(fighter);
             fighter.Initialize();
             if (fighters.Count >= minimumFighters)
@@ -61,6 +62,7 @@ public class BttleManager : MonoBehaviour
             attacker.transform.LookAt(defender.transform);
             defender.transform.LookAt(attacker.transform);
             Attack attack = attacker.GetRandomAttack();
+            DialogSystem.Instance.ShowDialog(attacker.CharacterData.charaterName + "attacks with" + attack.attackData.AttackName);
             attacker.Animator.Play(attack.attackData.animationName);
             attack.particlesPool.InstantiateObject(attacker.transform.position);
             float damage = Random.Range(attack.attackData.minDamage, attack.attackData.maxDamage);
